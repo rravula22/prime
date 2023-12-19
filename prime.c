@@ -12,6 +12,7 @@ int main() {
     double n;
     printf("Please enter the number:");
     scanf("%lf",&n);
+    printf("Sample Change");
     if(ceil(n) == floor(n)) printf("The given number is %s \n", checkIfPrime(n));
     else printf("\n Given number is a decimal");
     return 0;
